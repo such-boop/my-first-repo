@@ -9,3 +9,7 @@ My skills:
 5. Utilizing technology;
 6. Organization
 etc.
+
+Contacts:
+email: chupsnn@gmail.com
+phone: +21546413545
