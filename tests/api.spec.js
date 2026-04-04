@@ -4,7 +4,7 @@ import { postData } from '../tests/test-data/bookingInfo';
 let token;
 let bookingId;
 
-test.describe('API CRUD testing', () => {
+test.describe('API CRUD testing @api', () => {
   
   const baseURL = 'https://restful-booker.herokuapp.com';
   

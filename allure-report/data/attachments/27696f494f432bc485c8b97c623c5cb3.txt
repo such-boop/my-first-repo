@@ -1,0 +1,11 @@
+{ token: 'c5c43f4510744fb' }
+{
+  bookingid: 3261,
+  booking: {
+    firstname: 'Leon',
+    lastname: 'Kennedy',
+    totalprice: 249,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-04-04', checkout: '2026-05-05' }
+  }
+}
