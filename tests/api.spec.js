@@ -4,11 +4,11 @@ import { postData } from '../tests/test-data/bookingInfo';
 let token;
 let bookingId;
 
-test.describe('API CRUD testing @api', () => {
+test.describe.serial('API CRUD testing @api', () => {
   
   const baseURL = 'https://restful-booker.herokuapp.com';
   
-  test.beforeAll(async ({ request }) => {
+  test('Get token', async ({ request }) => {
     const response = await request.post(`${baseURL}/auth`, {
       data: {
         username: "admin",
@@ -26,7 +26,7 @@ test.describe('API CRUD testing @api', () => {
     token = json.token;
   });
   
-  test.beforeEach('Create - POST', async ({request}) => {
+  test('Create - POST', async ({request}) => {
     
     const response = await request.post(`${baseURL}/booking`, {
       data: postData,

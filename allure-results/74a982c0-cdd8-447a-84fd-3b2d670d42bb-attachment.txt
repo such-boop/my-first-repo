@@ -1,0 +1,9 @@
+090e0e71b6dad4a
+684
+{
+  firstname: 'Ada',
+  lastname: 'Wong',
+  totalprice: 249,
+  depositpaid: true,
+  bookingdates: { checkin: '2026-04-04', checkout: '2026-05-05' }
+}
